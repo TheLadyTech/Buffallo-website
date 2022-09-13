@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Smooch&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  height: 4850px;
+}
+header .l1 {
+  margin-top: 90px;
+  margin-left: 250px;
+}
+header .l1 a {
+  text-decoration: none;
+  border-bottom: 1px solid grey;
+  padding: 0px 50px 5px 0px;
+  color: grey;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-left: 5px;
+}
+header .l1 a:hover {
+  color: #2caebc;
+  border-bottom-color: #2caebc;
+}
+header .l2 a:hover {
+  color: #2caebc;
+  border-bottom-color: #2caebc;
+}
+/* header a:visited{
+   color: #ee6557;
+} */
+header .l2 a {
+  text-decoration: none;
+  border-bottom: 1px solid grey;
+  padding: 0px 0px 5px 50px;
+  color: grey;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-left: 5px;
+  position: relative;
+  left: 720px;
+  top: -76px;
+}
+.logo {
+  display: inline-block;
+  text-align: center;
+  margin-left: 600px;
+  margin-top: -50px;
+}
+.logo p {
+  font-size: 9px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  margin-top: -15px;
+  position: relative;
+  top: -10px;
+}
+.logo img {
+  width: 100px;
+  height: 110px;
+}
+.h1 h1 {
+  font-size: 60px;
+  letter-spacing: -2px;
+  font-weight: bolder;
+  position: relative;
+  left: 450px;
+  top: 40px;
+  word-spacing: 5px;
+}
+.h1 p {
+  position: relative;
+  left: 390px;
+  top: 60px;
+  line-height: 25px;
+  font-size: 17px;
+  color: #563333;
+  letter-spacing: -1px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  word-spacing: -1px;
+}
+.details h3 {
+  position: relative;
+  left: 550px;
+  top: 60px;
+  color: #181818;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.formrow1 input {
+  width: 320px;
+  height: 40px;
+  background-color: white;
+  color: #181818;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.formrow1 {
+  margin-left: 280px;
+}
+.formrow2 input {
+  width: 320px;
+  height: 40px;
+  background-color: white;
+  color: #181818;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.formrow2 {
+  margin-left: 0px;
+}
+.typofproject h3 {
+  position: relative;
+  left: 540px;
+  top: 60px;
+  color: #181818;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.formrow3 input {
+  width: 210px;
+  height: 40px;
+  background-color: #c5c5c5;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-left: 10px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 11px;
+}
+.formrow3 {
+  margin-left: 280px;
+}
+#web {
+  background-color: #ee6557;
+}
+.briefdesc h3 {
+  position: relative;
+  left: 520px;
+  top: 60px;
+  color: #181818;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.briefdesc textarea {
+  width: 450px;
+  height: 120px;
+  margin-top: 80px;
+  margin-left: 400px;
+  background-color: white;
+  border: 1px solid white;
+}
+.whatuneed h3 {
+  position: relative;
+  left: 520px;
+  top: 60px;
+  color: #181818;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.idealdate h3 {
+  position: relative;
+  left: 520px;
+  top: 60px;
+  color: #181818;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+#select {
+  width: 210px;
+  height: 40px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-left: 10px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  /* text-align: center; */
+  font-size: 11px;
+}
+#formdrop {
+  margin-left: 280px;
+}
+#formdrop option {
+  line-height: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+.formrowselector input {
+  width: 210px;
+  height: 40px;
+  background-color: #c5c5c5;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-left: 10px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 11px;
+}
+.formrowselector input:hover {
+  background-color: #4d8ef5;
+}
+.likely h3 {
+  position: relative;
+  left: 540px;
+  top: 60px;
+  color: #181818;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.moneyrange input {
+  width: 154px;
+  height: 40px;
+  background-color: #c5c5c5;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-left: 10px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 11px;
+}
+.moneyrange input:hover {
+  background-color: #ee6557;
+}
+.moneyrange {
+  margin-left: 280px;
+}
+.finished h3 {
+  position: relative;
+  left: 570px;
+  top: 60px;
+  color: #181818;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.lines {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+.b1 {
+  border-top: 1px solid grey;
+  width: 240px;
+  margin-left: 20px;
+}
+.project {
+  margin-left: 350px;
+  margin-top: 20px;
+}
+.project .div1 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.project .div1 img {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #ee6557;
+  border-radius: 50%;
+  padding: 15px 15px;
+  background-color: white;
+}
+/* .project .div1 img:hover{
+  background-color:  #ee6557 ;
+  filter: invert(#ee6557);
+} */
+.div1 h3 {
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 15px;
+  letter-spacing: 3px;
+  color: grey;
+}
+.div1 p {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 20pxpx;
+}
+.div12 a {
+  color: grey;
+  text-decoration: none;
+  border-bottom: 1px solid #16a6b6;
+}
+.div1 button {
+  width: 120px;
+  height: 30px;
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+  background-color: #c5c5c5;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-top: 25px;
+  margin-left: -10px;
+}
+.div1 h3 {
+  margin-left: -25px;
+  font-size: 13px;
+}
+.div11 p {
+  position: relative;
+  left: -60px;
+  top: 10px;
+  line-height: 20px;
+}
+
+.div11 .p2 {
+  position: relative;
+  left: -49px;
+}
+.div1 button {
+  margin-top: 30px;
+}
+.div1 button:hover {
+  background-color: #16a6b6;
+  color: white;
+  cursor: pointer;
+}
+.div12 img {
+  position: relative;
+  top: -13px;
+  left: -20px;
+}
+.div12 h3 {
+  position: relative;
+  top: -13px;
+}
+.div12 p {
+  position: relative;
+  top: -0px;
+  left: -39px;
+}
+.div12 a {
+  position: relative;
+  top: 0px;
+  left: -50px;
+  font-size: 15px;
+  line-height: 35px;
+  word-spacing: -2px;
+}
+.launch {
+  position: relative;
+  border-bottom: none;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.div12 .link2 {
+  position: relative;
+  left: -25px;
+}
+.div13 img {
+  position: relative;
+  top: -3px;
+  left: 40px;
+}
+.div13 h3 {
+  position: relative;
+  top: -3px;
+  left: 50px;
+}
+.div13 p {
+  position: relative;
+  top: 12px;
+  left: -39px;
+  line-height: 20px;
+}
+.div13 .p21 {
+  position: relative;
+  left: 20px;
+}
+.div13 button {
+  position: relative;
+  left: 20px;
+}
+.horizon hr {
+  width: 750px;
+  margin-left: 320px;
+  margin-top: 50px;
+}
+.horizon p {
+  margin-top: 30px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: grey;
+  margin-left: 500px;
+}
+.horizon img {
+  width: 150px;
+  height: 30px;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+.horizon .img1 {
+  position: relative;
+  left: 100px;
+  height: 25px;
+}
+.horizon .img2 {
+  position: relative;
+  left: -270px;
+  width: 110px;
+  filter: contrast(1);
+}
+.horizon img:hover {
+  filter: invert(1);
+}
+.copy {
+  font-size: 12px;
+  color: grey;
+  font-family: sans-serif;
+  margin-top: 40px;
+  margin-left: 480px;
+  line-height: 25px;
+}
+.copy a {
+  text-decoration: none;
+  border-bottom: 1px solid #16a6b6;
+  color: #181818;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+}
+.copy a:hover {
+  color: #16a6b6;
+}
+.copyp {
+  position: relative;
+  left: -40px;
+}
+.copyp2 {
+  position: relative;
+  left: 110px;
+  top: 20px;
+}
